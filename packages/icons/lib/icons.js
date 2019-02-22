@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = icons;
 
 function icons() {
-    // TODO
+  // TODO s
 }
