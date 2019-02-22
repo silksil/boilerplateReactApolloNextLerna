@@ -1,6 +1,6 @@
-37 error Error: Command failed: git commit -F /private/var/folders/r0/r8dty5rj4kj6jvld9_t5v0zx0311qb/T/0f80772c-a50e-47a2-b294-5de59d3548a6/lerna-commit.txt
+37 error Error: Command failed: git commit -F /private/var/folders/r0/r8dty5rj4kj6jvld9_t5v0zx0311qb/T/86ca22ea-74e0-4e81-9184-d6b1fc565c24/lerna-commit.txt
 37 error On branch master
-37 error Your branch is ahead of 'origin/master' by 2 commits.
+37 error Your branch is ahead of 'origin/master' by 1 commit.
 37 error   (use "git push" to publish your local commits)
 37 error
 37 error Changes not staged for commit:
