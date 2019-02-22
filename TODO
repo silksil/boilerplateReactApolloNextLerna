@@ -1,3 +1,20 @@
 
 Todo:
-  ☐ Item
+  ☐ Install lerna
+  ☐ Set it up with npm
+  ☐ Instal react/intl
+
+
+
+  Steps:
+   - `Lerna create`
+    - To create packages we are going to use the `lerna create` terminal command from the root of our project. Thelerna create doctorcommand will guide us through the creation of a new package. The name of the package is important. The name of this package is going to be: @projectName/individualPackageName
+      - `lerna create@packageName/package`
+  - Link lerna to npm
+    - Create a organization on npm
+     - Login in your terminal: npm login --scope=nameOrgNpm
+    - `Lerna publish`
+      - publish packages that have changed since the last release
+      - When you publish a package it will add a tag => you can use the tag too see what has been changed. 
+    - `Lerna run`
+      - To run a script in each package use: lerna run scriptTag

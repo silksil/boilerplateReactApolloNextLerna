@@ -2,6 +2,8 @@
 /node_modules
 .next
 lerna-debug.log
+npm-debug.log
+TODO
 
 # misc
 .DS_Store
