@@ -2,6 +2,6 @@
 
 const buttons = require('..');
 
-describe('@benjamin/buttons', () => {
+describe('Buttons', () => {
     it('needs tests');
 });
