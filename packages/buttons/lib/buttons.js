@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = buttons;
 
 function buttons() {
-    // TODO
+  // TODOs
 }
