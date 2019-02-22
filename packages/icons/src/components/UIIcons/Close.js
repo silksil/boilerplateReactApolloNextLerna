@@ -20,7 +20,7 @@ const Close = ({ color, size }) => (
 );
 
 Close.defaultProps = {
-  color: "#FFF",
+  color: "#000000 ",
   size: "25px"
 };
 
