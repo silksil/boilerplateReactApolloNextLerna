@@ -4,7 +4,6 @@ import Header from "./Header";
 import Meta from "./Meta";
 import Link from "next/link";
 import { LocalStateButton } from "./testLocalState";
-import { Close } from "@benjaminf/icons";
 
 const theme = {
   red: "#FF0000",
