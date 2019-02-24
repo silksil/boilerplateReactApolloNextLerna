@@ -1,6 +1,6 @@
 {
   "name": "@benjaminf/breakpoints",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "silksil <silkreulen@gmail.com>",
   "homepage": "https://github.com/silksil/boilerplateReactApolloNextLerna#readme",
@@ -25,9 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/silksil/boilerplateReactApolloNextLerna/issues"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "dependencies": {
     "react": "^16.8.3",
