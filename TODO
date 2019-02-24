@@ -4,9 +4,10 @@ Todo:
   ☐ Set it up with npm
   ☐ Instal react/intl
 
-
-
   Steps:
+  - `Learne add`
+    - Call from root folder
+    - Add a external package in each of your internal package. 
    - `Lerna create`
     - To create packages we are going to use the `lerna create` terminal command from the root of our project. Thelerna create doctorcommand will guide us through the creation of a new package. The name of the package is important. The name of this package is going to be: @projectName/individualPackageName
       - `lerna create@packageName/package`

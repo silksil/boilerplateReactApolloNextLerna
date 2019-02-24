@@ -1,13 +1,16 @@
 # global
 node_modules/
 .vscode/*
-.DS_Store
 
 # dependencies
 .eslintcache
-lerna-debug.log
-npm-debug.log
-TODO
+lerna-debug.log*
+
+# production
+.next
 
 # misc
 .DS_Store
+.env
+
+
