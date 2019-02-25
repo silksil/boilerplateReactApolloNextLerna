@@ -4,6 +4,7 @@ import Header from "./Header";
 import Meta from "./Meta";
 import Link from "next/link";
 import { LocalStateButton } from "./testLocalState";
+import { breakpoints } from "@benjaminf/breakpoints";
 
 const theme = {
   red: "#FF0000",
