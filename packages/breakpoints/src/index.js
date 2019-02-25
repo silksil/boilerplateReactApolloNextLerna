@@ -1,1 +1,1 @@
-export { breakpoints, sizes } from './components/Breakpoints';
+export { breakpoints, sizes } from "./components/Breakpoints";
