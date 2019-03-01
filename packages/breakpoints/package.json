@@ -1,15 +1,12 @@
 {
   "name": "@benjaminf/breakpoints",
   "version": "0.0.8",
-  "description": "> TODO: description",
-  "author": "silksil <silkreulen@gmail.com>",
-  "homepage": "https://github.com/silksil/boilerplateReactApolloNextLerna#readme",
+  "description": "Breakpoints",
   "license": "ISC",
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "transpile": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",
-    "jest": "jest --coverage --verbose --color"
+    "transpile": "babel src -d dist "
   },
   "babel": {
     "presets": [
@@ -27,16 +24,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silksil/boilerplateReactApolloNextLerna.git"
-  },
-  "bugs": {
-    "url": "https://github.com/silksil/boilerplateReactApolloNextLerna/issues"
-  },
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
-  },
-  "gitHead": "819e6835556dcf46efb2b3a8329030a0c7d05969"
+  }
 }

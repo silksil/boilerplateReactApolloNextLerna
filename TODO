@@ -5,17 +5,28 @@ Todo:
   ☐ Instal react/intl
 
   Steps:
-  - `Learne add`
-    - Call from root folder
-    - Add a external package in each of your internal package. 
-   - `Lerna create`
-    - To create packages we are going to use the `lerna create` terminal command from the root of our project. Thelerna create doctorcommand will guide us through the creation of a new package. The name of the package is important. The name of this package is going to be: @projectName/individualPackageName
-      - `lerna create@packageName/package`
-  - Link lerna to npm
-    - Create a organization on npm
+
+
+    Link lerna to npm:
+     - Create a organization on npm
      - Login in your terminal: npm login --scope=nameOrgNpm
-    - `Lerna publish`
-      - publish packages that have changed since the last release
-      - When you publish a package it will add a tag => you can use the tag too see what has been changed. 
-    - `Lerna run`
-      - To run a script in each package use: lerna run scriptTag
+
+      How to configure lerna:
+      - First, install lerna globally: `npm i -g lerna`
+      - Then include lerna in the root of your monorepo through `lerna init`
+      - Next install common dependencies in the root folder. If you install them in the root folder, you don't have to install them again in a package. They can be installed as a dev dependancy. I've chosen only to install packages that help with transpiling the code, and not to also include React, as in some components I won't be using React:
+      ```npm i -D react react-dom @babel/core@^7.0.0-0 @babel/cli babel-plugin-transform-es2015-modules-commonjs babel-jest  babel-core@7.0.0-bridge.0 @babel/preset-env @babel/preset-react``
+
+      How to create a new package:
+      - To create packages we are going to use the `lerna create` terminal command from the root of our project. The `lerna create` command will guide us through the creation of a new package. The name of the package is important, and should be: @projectName/individualPackageName
+      - After we have created the package, we configure the package.json in a way so it transpiles our code, awe assign the root folder if we want to ship code to npm, and assign the folder that we are gonna use for pre-compiled code that we gonna use as a local run-time dependency while developing the app or running tests.
+      - `Lerna run` you can can run ascript in each package. Thus, if we run `lerna run transpile` all dependencies that have the script `transpile` assigned will run the configured babel that will transpile the code.
+      - The transpiled code will create a `dist` folder with an `index.js` with your transpiled code. This will eventually be publised the npm.
+
+      Publish to npm:
+      - In order to create or update packages on npm you can use `lerna publish`
+      - When you publish a package it will add a tag => you can use the tag too see what has been changed.
+
+      OPTIONAL
+      Add a external package in each of your internal package:
+      - Call  `Learne add namePackage` from root folder too external package in each of your internal package.

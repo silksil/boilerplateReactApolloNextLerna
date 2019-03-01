@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.breakpoints = exports.sizes = void 0;
 var sizes = {
   xs: 480,
-  md: 768,
+  md: 767,
   lg: 1024,
   xl: 1440
 };
