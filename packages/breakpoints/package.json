@@ -1,6 +1,6 @@
 {
   "name": "@benjaminf/breakpoints",
-  "version": "0.0.8",
+  "version": "0.0.9-alpha.0",
   "description": "Breakpoints",
   "license": "ISC",
   "main": "dist/index.js",
