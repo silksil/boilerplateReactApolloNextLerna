@@ -47,6 +47,7 @@ injectGlobal`
 
 class Wrapper extends Component {
   render() {
+    console.log(breakpoints );
     return (
       <ThemeProvider theme={theme}>
         <StyledPage>
@@ -54,7 +55,6 @@ class Wrapper extends Component {
 
           <Link href="/">
             <a> Boilerplate </a>
-            <Close />
           </Link>
           <LocalStateButton />
           <Header />
