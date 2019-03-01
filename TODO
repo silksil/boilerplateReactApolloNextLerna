@@ -27,6 +27,10 @@ Todo:
       - In order to create or update packages on npm you can use `lerna publish`
       - When you publish a package it will add a tag => you can use the tag too see what has been changed.
 
+      lerna boostrap:
+      - npm install all external dependencies of each package.
+      - Symlink together all Lerna packages that are dependencies of each other.
+
       OPTIONAL
       Add a external package in each of your internal package:
       - Call  `Learne add namePackage` from root folder too external package in each of your internal package.

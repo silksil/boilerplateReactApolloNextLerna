@@ -1,0 +1,26 @@
+{
+  "name": "@benjaminf/theme",
+  "description": "Colors and font ",
+  "version": "0.1.0",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "transpile": "babel src -d dist "
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
