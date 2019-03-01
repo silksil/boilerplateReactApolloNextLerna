@@ -1,6 +1,6 @@
 export const sizes = {
   xs: 480,
-  md: 767,
+  md: 766,
   lg: 1024,
   xl: 1440
 };
