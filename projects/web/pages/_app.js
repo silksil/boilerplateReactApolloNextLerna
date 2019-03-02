@@ -1,5 +1,5 @@
 import App, { Container } from "next/app";
-import Wrapper from "../components/Wrapper/Wrapper";
+import StyledWrapper from "../components/StyledWrapper/StyledWrapper";
 import { ApolloProvider } from "react-apollo";
 import withApollo from "../lib/withApollo";
 
@@ -22,9 +22,9 @@ class MyApp extends App {
         {/* Expose Apollo client to React
         by wrapping the App in the Apollo Provider from the HOC*/}
         <ApolloProvider client={apollo}>
-          <Wrapper>
+          <StyledWrapper>
             <Component {...pageProps} />
-          </Wrapper>
+          </StyledWrapper>
         </ApolloProvider>
       </Container>
     );
